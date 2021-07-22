@@ -57,6 +57,7 @@ O = {
         autoformat = false,
         diagnostics = {virtual_text = {spacing = 0, prefix = ""}, signs = true, underline = true}
     },
+    flow = {},
     json = {
         -- @usage can be 'prettier'
         formatter = '',
