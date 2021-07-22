@@ -9,7 +9,7 @@ an executable
 
 -- general
 O.auto_complete = true
-O.colorscheme = 'lunar'
+O.colorscheme = 'sonokai'
 O.auto_close_tree = 0
 O.wrap_lines = false
 O.timeoutlen = 100
@@ -67,4 +67,13 @@ O.go.autoformat = true
 -- create custom autocommand field (This would be easy with lua)
 
 -- Turn off relative_numbers
--- O.relative_number = false
+O.relative_number = false
+
+vim.opt.scrolloff = 5
+
+vim.api.nvim_set_keymap('', 'Y', '"*y', {noremap = true, silent = true})
+
+vim.cmd('set ts=2')
+vim.cmd('set sw=2')
+vim.cmd('set expandtab')
+
